@@ -1,0 +1,11 @@
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\bin\Debug\VPC_GXT2Editor.exe.config
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\bin\Debug\VPC_GXT2Editor.exe
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\bin\Debug\VPC_GXT2Editor.pdb
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\bin\Debug\betterlistviewexpress-net35.dll
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\obj\Debug\VPC_GXT2Editor.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\obj\Debug\VPC_GXT2Editor.Main.resources
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\obj\Debug\VPC_GXT2Editor.Properties.Resources.resources
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\obj\Debug\VPC_GXT2Editor.csproj.GenerateResource.Cache
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\obj\Debug\VPC_GXT2Editor.exe
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\obj\Debug\VPC_GXT2Editor.pdb
+c:\users\carlos\documents\visual studio 2013\Projects\VPC_GXT2Editor\VPC_GXT2Editor\obj\Debug\VPC_GXT2Editor.Forms.EditorForm.resources
