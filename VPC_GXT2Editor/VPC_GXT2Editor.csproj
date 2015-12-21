@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="betterlistviewexpress-net35">
-      <HintPath>..\..\..\..\..\Desktop\Visual Studio\Deadburg Tools\Deadburg Tools\betterlistviewexpress-net35.dll</HintPath>
+    <Reference Include="betterlistviewexpress-net35, Version=3.15.0.0, Culture=neutral, PublicKeyToken=e6c91a3add447be2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\betterlistviewexpress-net35.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,9 +69,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\EditorForm.resx">
       <DependentUpon>EditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

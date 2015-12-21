@@ -171,7 +171,7 @@ namespace VPC_GXT2Editor
         }
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Made by XBLToothPik\r\nUse OpenIV to extract GXT2 files from GTAV.\r\rVersion 0.1", "Information - About", MessageBoxButtons.OK);
+            MessageBox.Show("Made by XBLToothPik\r\n" + "Modified by kagikn" + "Use OpenIV to extract GXT2 files from GTAV.\r\n" + "Version 0.2", "Information - About", MessageBoxButtons.OK);
         }
         private void itemView_DoubleClick(object sender, EventArgs e)
         {
@@ -229,7 +229,7 @@ namespace VPC_GXT2Editor
             itemView.BeginUpdate();
             foreach (KeyValuePair<uint, byte[]> datas in MainGXTFile.DataItems)
             {
-                string dataString = System.Text.Encoding.Default.GetString(datas.Value);
+                string dataString = System.Text.Encoding.UTF8.GetString(datas.Value);
                 ComponentOwl.BetterListView.BetterListViewItem newItem = new ComponentOwl.BetterListView.BetterListViewItem();
                 newItem.Text = string.Format("0x{0:X8}", datas.Key);
                 newItem.SubItems.Add(dataString);

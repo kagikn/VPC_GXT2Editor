@@ -14,11 +14,11 @@ namespace VPC_GXT2Editor.Formats.GXT
         public Dictionary<uint, byte[]> DataItems;
         public void AddStringItem(string name, string str)
         {
-            DataItems.Add(Utils.GetHash(name), System.Text.Encoding.ASCII.GetBytes(str));
+            DataItems.Add(Utils.GetHash(name), System.Text.Encoding.UTF8.GetBytes(str));
         }
         public void AddStringItem(uint hash, string str)
         {
-            DataItems.Add(hash, System.Text.Encoding.ASCII.GetBytes(str));
+            DataItems.Add(hash, System.Text.Encoding.UTF8.GetBytes(str));
         }
         public GXT2()
         {
